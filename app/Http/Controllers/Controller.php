@@ -11,7 +11,8 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function store(){
-        
+    public function store($value){
+        return $value;
+
     }
 }
