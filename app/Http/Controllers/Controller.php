@@ -14,5 +14,10 @@ class Controller extends BaseController
     public function store($value){
         return $value;
 
+
+
+
+        
+
     }
 }
